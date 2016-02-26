@@ -7,12 +7,6 @@ A multi-transport async logging utility for node.js. Forked from [winston](https
   [sudo] npm install logu --save
 ```
 
-## Run Tests
-
-``` bash
-  $ npm test
-```
-
 ## Author: [Yuan Tao](https://github.com/taoyuan)
 
 [npm-image]: https://badge.fury.io/js/logu.svg
