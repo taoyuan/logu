@@ -1,6 +1,6 @@
 # logu [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-A multi-transport async logging utility for node.js. Forked from [winston](https://github.com/flatiron/winston)
+A cli logging library based on wiston for Node.js
 
 ## Installation
 ```
