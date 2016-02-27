@@ -12,7 +12,7 @@
 
 ## Usage
 
-`logu` supports `host`, `id` and `label` for log.
+### `logu` supports `host`, `id` and `label` for log.
 
 ```js
 var logu = require('logu');
@@ -34,7 +34,7 @@ output:
 [14:14:33.587] app               say hello foo=bar
 ```
 
-`logu` using one parameter for `logging` and `logged` events.
+### `logu` using one parameter for `logging` and `logged` events.
 
 A sample log parameter of event `logging`:
 
