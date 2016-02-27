@@ -19,7 +19,7 @@ describe('logu/logger', function () {
       });
     });
 
-    describe("he log() method", function () {
+    describe("The log() method", function () {
 
       it("when passed undefined should not throw", function () {
         assert.doesNotThrow(function () {
@@ -45,7 +45,22 @@ describe('logu/logger', function () {
 
     });
 
+    describe("The cli() method", function () {
+      it("should log with host", function (done) {
+        logger.cli('abc');
+        stdMocks.use();
+        logger.log('info', 'This is a message', {meta: true}, function () {
+          stdMocks.restore();
+          var output = stdMocks.flush();
+          var line = output.stdout[0];
+          assert.isTrue(line.indexOf('abc') >= 0);
+          done();
+        });
+      });
+    });
+
   });
+
 
   describe('Building a logger with two file transports', function () {
     var logger;
