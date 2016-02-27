@@ -1,6 +1,6 @@
 # logu [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-A cli logging library based on wiston for Node.js
+> A cli logging library based on [wiston](https://github.com/winstonjs/winston) for Node.js
 
 ## Installation
 ```
