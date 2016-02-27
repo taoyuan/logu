@@ -38,7 +38,7 @@ output:
 
 A sample log parameter of event `logging`:
 
-```json
+```js
 {
   transport: {...},
   level: 'info',
@@ -51,7 +51,7 @@ A sample log parameter of event `logging`:
 
 A sample log parameter of event `logged`:
 
-```json
+```js
 {
   transport: {...},
   level: 'info',
