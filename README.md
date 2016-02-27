@@ -17,21 +17,21 @@
 ```js
 var logu = require('logu');
 
-logu.cli('logu', {host: 'app', colorize: true, timestamp: 'short', showLevel: false, showLabel: true});
+logu.cli('logu', {colorize: true, timestamp: 'short', showLevel: false, showLabel: true});
 
 logu.log('info', 'Hello, this is a logging event with host', {'foo': 'bar'});
 logu.log('info', 'action', 'Hello, this is a logging event with host', {'foo': 'bar'});
 logu.log('info', 'build', 'Hello, this is a logging event with host', {'foo': 'bar', 'label': 'logu#*', arr: [1, 2]});
-logu.info('say', 'hello', {foo: 'bar'});
+logu.info('say', 'hello', {'foo': 'bar'});
 ```
 
 output:
 
 ```
-[14:14:33.580] app Hello, this is a logging event with host foo=bar
-[14:14:33.585] app            action Hello, this is a logging event with host foo=bar
-[14:14:33.586] app logu#*      build Hello, this is a logging event with host foo=bar, label=logu#*, arr=[1, 2]
-[14:14:33.587] app               say hello foo=bar
+[15:51:14.108] logu Hello, this is a logging event with host foo=bar
+[15:51:14.112] logu            action Hello, this is a logging event with host foo=bar
+[15:51:14.114] logu logu#*      build Hello, this is a logging event with host foo=bar, label=logu#*, arr=[1, 2]
+[15:51:14.114] logu               say hello foo=bar
 ```
 
 ### `logu` using one parameter for `logging` and `logged` events.

@@ -1,6 +1,6 @@
 var logu = require('..');
 
-logu.cli('logu', {host: 'app', colorize: true, timestamp: 'short', showLevel: false, showLabel: true});
+logu.cli('logu', {colorize: true, timestamp: 'short', showLevel: false, showLabel: true});
 
 logu.log('info', 'Hello, this is a logging event with host', {'foo': 'bar'});
 logu.log('info', 'action', 'Hello, this is a logging event with host', {'foo': 'bar'});
