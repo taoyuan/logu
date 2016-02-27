@@ -4,4 +4,4 @@ npm-debug.log
 test/fixtures/logs/*.log*
 node_modules
 .idea
-coveralls
+coverage
