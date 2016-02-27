@@ -10,6 +10,5 @@ npm-debug.log
 *.tmp
 .git
 .idea
-test
-examples
 docs
+coverage
