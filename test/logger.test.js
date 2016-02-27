@@ -28,16 +28,16 @@ describe('logu/logger', function () {
       });
 
       it("when passed an Error object as meta", function (done) {
-        logger.once('logging', function (transport, level, msg, meta) {
-          assert.instanceOf(meta, Error);
+        logger.once('logging', function (log) {
+          assert.instanceOf(log.meta, Error);
           done();
         });
         logger.log('info', 'An error happened: ', new Error('I am something bad'));
       });
 
       it("when passed a string placeholder", function (done) {
-        logger.once('logging', function (transport, level, msg, meta) {
-          assert.strictEqual(msg, 'test message my string');
+        logger.once('logging', function (log) {
+          assert.strictEqual(log.message, 'test message my string');
           done();
         });
         logger.log('info', 'test message %s', 'my string');
