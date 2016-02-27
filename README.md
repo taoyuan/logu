@@ -44,7 +44,7 @@ A sample log parameter of event `logging`:
   level: 'info',
   id: 'logu',
   message: 'Hello world!',
-  meta: {foo: 'bar}
+  meta: {foo: 'bar'}
 }
 
 ```
