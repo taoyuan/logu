@@ -2,11 +2,12 @@
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-> A cli logging library based on [wiston](https://github.com/winstonjs/winston) for Node.js
+> A javascript logging library based on [wiston](https://github.com/winstonjs/winston).
 
 ## Installation
-```
-  [sudo] npm install logu --save
+
+```sh
+[sudo] npm install logu --save
 ```
 
 ## Author: [Yuan Tao](https://github.com/taoyuan)
