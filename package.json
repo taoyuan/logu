@@ -1,7 +1,7 @@
 {
   "name": "logu",
   "description": "A javascript logging library based on wiston",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "taoyuan <towyuan@outlook.com>",
   "maintainers": [
     "taoyuan <towyuan@outlook.com>"
