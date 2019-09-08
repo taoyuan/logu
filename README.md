@@ -1,5 +1,7 @@
 # logu 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/logu.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 > A javascript logging library based on [wiston](https://github.com/winstonjs/winston).
